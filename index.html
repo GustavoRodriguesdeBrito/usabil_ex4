@@ -4,19 +4,50 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Home - Nous Cursos</title>
+        <!-- CSS only -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Cursos</a>
-                <a href="#">Sobre</a>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">Cursos</a>
+                        <a class="nav-link" href="#">Sobre</a>
+                    </div>
+                </div>
             </nav>
-            <h1>Nous Cursos</h1>
-            <h2>Para aqueles que amam aprender</h2>
-            <p>Somos uma insituição de ensino focada em prover cursos de extensão de qualidade com grande variedade de tópicos e disciplinas.</p>
+            <div id="banner">
+                <div class="container-fluid text-light min-vh-100 pt-5">
+                    <h1 class="display-1">Nous Cursos</h1>
+                    <h2 class="">Para aqueles que amam aprender</h2>
+                    <p class="">
+                        Somos uma insituição de ensino focada em prover cursos
+                        de extensão de qualidade com grande variedade de tópicos
+                        e disciplinas.
+                    </p>
+                </div>
+            </div>
         </header>
-        <main>
+        <main class="my-5">
             <section>
                 <h1>Conheça alguns dos nossos cursos</h1>
                 <article>
@@ -32,7 +63,10 @@
                 </article>
                 <article>
                     <h3>Empreendedorismo</h3>
-                    <p>Desenvolva competências orientadas ao gerenciamento e crescimento do seu negócio.</p>
+                    <p>
+                        Desenvolva competências orientadas ao gerenciamento e
+                        crescimento do seu negócio.
+                    </p>
                 </article>
                 <article>
                     <h3>Orientação Nutricional e Saúde</h3>
@@ -40,20 +74,44 @@
                 </article>
                 <article>
                     <h3>Desenvolvimento de jogos</h3>
-                    <p>Ensino focado na utilização de ferramentas como Unity e GameMaker 2 para criação de jogos 2D e 3D.</p>
+                    <p>
+                        Ensino focado na utilização de ferramentas como Unity e
+                        GameMaker 2 para criação de jogos 2D e 3D.
+                    </p>
                 </article>
                 <article>
                     <h3>Administração do tempo</h3>
-                    <p>Desenvolvimento de capacidades de organização de tempo.</p>
+                    <p>
+                        Desenvolvimento de capacidades de organização de tempo.
+                    </p>
                 </article>
             </section>
         </main>
-        <footer>
+        <footer class="bg-dark text-light text-center py-4">
             <address>
-                E-Mail: <a href="mailto:atendimento@nous.com">atendimento@nous.com</a> | 
-                Telefone: <a href="tel:+55 71 90501-4581">+55 71 90501-4581</a><!-- gerado com https://randommer.io/Phone -->
+                E-Mail:
+                <a class="text-decoration-none text-light" href="mailto:atendimento@nous.com">atendimento@nous.com</a> |
+                Telefone: <a class="text-decoration-none text-light" href="tel:+55 71 90501-4581">+55 71 90501-4581</a
+                ><!-- gerado com https://randommer.io/Phone -->
             </address>
             <span>&copy; Nous Cursos 2020</span>
         </footer>
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"
+        ></script>
     </body>
 </html>
